@@ -129,7 +129,7 @@ Install the ed25519 library using pip3 tool.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ralucanegre/pydids.git
    ```
 2. Install python packages
    ```sh
@@ -137,7 +137,7 @@ Install the ed25519 library using pip3 tool.
    ```
 3. Change git remote url to avoid accidental pushes to base project
    ```sh
-   git remote set-url origin github_username/repo_name
+   git remote set-url origin ralucanegre/pydids
    git remote -v # confirm the changes
    ```
 4. Run python app
