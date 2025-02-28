@@ -120,10 +120,9 @@ This example requires Python 3.10 or higher version.
 
 Install the ed25519 library using pip3 tool.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip or pip3
   ```sh
-  npm install npm@latest -g
+  pip3 install ed25519
   ```
 
 ### Installation
@@ -132,14 +131,18 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Install NPM packages
+2. Install python packages
    ```sh
-   npm install
+   pip3 install -r requirements.txt
    ```
 3. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
+   ```
+4. Run python app
+   ```sh
+   python did_runner.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
